@@ -1,0 +1,46 @@
+# --- Flutter/Dart ---
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+build/
+pubspec.lock
+
+# --- Android Gradle ---
+android/.gradle/
+.gradle/
+**/build/
+android/app/google-services.json
+
+# --- Firebase ---
+ios/Runner/GoogleService-Info.plist
+
+# --- IDEs ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- Misc ---
+*.log
+*.tmp
+.DS_Store
+*.swp
+
+# --- Keystore (already present) ---
+key.properties
+**/*.keystore
+**/*.jks
+
+# --- Gradle Wrapper ---
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# --- C/C++ Native Build ---
+.cxx/
+
+# --- Emulator Captures ---
+/captures/
